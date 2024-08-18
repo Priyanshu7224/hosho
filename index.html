@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scholarship Management System</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #6b0f9c, #ff6f61);
+            color: #fff;
+            text-align: center;
+        }
+        .container {
+            margin: 80px auto;
+            padding: 40px;
+            max-width: 700px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 12px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.2);
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+            color: #555;
+        }
+        .role-option {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .role-button {
+            display: inline-block;
+            padding: 15px 25px;
+            font-size: 1.2em;
+            color: #fff;
+            background-color: #007bff;
+            border: none;
+            border-radius: 8px;
+            text-decoration: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .role-button:hover {
+            background-color: #0056b3;
+            transform: scale(1.05);
+        }
+        .role-button:active {
+            transform: scale(0.98);
+        }
+        .footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.2);
+            padding: 10px;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Scholarship Management System</h1>
+        <p>Select your role to proceed:</p>
+        <div class="role-option">
+            <a href="login.html?role=student" class="role-button">Student</a>
+            <a href="login.html?role=hod" class="role-button">HOD</a>
+            <a href="login.html?role=principal" class="role-button">Principal</a>
+            <a href="login.html?role=finance" class="role-button">Finance Head</a>
+        </div>
+    </div>
+    <div class="footer">
+        <p>&copy; 2024 Scholarship Management System | All rights reserved</p>
+    </div>
+</body>
+</html>
+

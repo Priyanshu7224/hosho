@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finance Dashboard - Scholarship Management System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            color: #fff;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        .container {
+            margin: 80px auto;
+            padding: 40px;
+            max-width: 1000px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 12px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.2);
+            flex: 1;
+            text-align: left;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .section {
+            margin: 20px 0;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .section h2 {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        .section p {
+            font-size: 1em;
+            color: #555;
+        }
+        .section button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            margin: 5px;
+        }
+        .section button:hover {
+            background-color: #0056b3;
+            transform: scale(1.05);
+        }
+        .section button:active {
+            transform: scale(0.98);
+        }
+        .details-section, .fund-tracking-section, .financial-report-section, .communication-section {
+            background: #e9ecef;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 10px 0;
+            color: #333;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .communication-section textarea {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        .footer {
+            background: rgba(0, 0, 0, 0.2);
+            padding: 10px;
+            color: #fff;
+            text-align: center;
+            width: 100%;
+            margin-top: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Finance Dashboard</h1>
+
+        <!-- Allocate Funds Section -->
+        <div class="section details-section">
+            <h2>Allocate Funds for Approved Scholarships</h2>
+            <p>Allocate funds to students who have been approved for scholarships to ensure timely awards.</p>
+            <button>Allocate Funds</button>
+        </div>
+
+        <!-- Track Disbursement Section -->
+        <div class="section fund-tracking-section">
+            <h2>Track Fund Disbursement</h2>
+            <p>Monitor and track the disbursement of scholarship funds to ensure proper financial management.</p>
+            <button>Track Disbursement</button>
+        </div>
+
+        <!-- Generate Financial Reports Section -->
+        <div class="section financial-report-section">
+            <h2>Generate Financial Reports</h2>
+            <p>Create reports on scholarship spending to provide transparency and accountability.</p>
+            <button>Generate Report</button>
+        </div>
+
+        <!-- Communicate with Principal and HODs Section -->
+        <div class="section communication-section">
+            <h2>Communicate with Principal and HODs</h2>
+            <p>Send messages to the Principal and HODs about the availability of funds and budget constraints.</p>
+            <textarea placeholder="Write your message here..." rows="4"></textarea><br>
+            <button>Send Message</button>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 Scholarship Management System | All rights reserved</p>
+    </div>
+</body>
+</html>
+
+
